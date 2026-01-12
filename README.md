@@ -8,7 +8,7 @@ Never lose track of what your AI assistant was working on. The now-next methodol
 
 ## 🚀 Quick Start
 
-**Copy this prompt to Claude Code, OpenCode, Cursor, or any AI coding assistant:**
+**Copy this prompt to your AI coding assistant (Claude Code, OpenCode, Cursor, etc.):**
 
 ```
 Set up the now-next methodology in this project:
@@ -135,24 +135,48 @@ A local slash command that:
 ### Option 1: One-Prompt Setup (Recommended)
 Use the prompt from [Quick Start](#-quick-start) above.
 
-### Option 2: Manual Setup
+### Option 2: Global Commands (Reusable)
+
+Install a global `/setup-now-next` command once, use in any project:
 
 #### For Claude Code:
 ```bash
-# Copy templates
-curl -o .claude/commands/setup-now-next.md https://raw.githubusercontent.com/soutone/now-next-methodology/main/templates/claude-code/setup-now-next.md
-
-# Run the command
-/setup-now-next
+curl -o ~/.claude/commands/setup-now-next.md https://raw.githubusercontent.com/soutone/now-next-methodology/main/templates/claude-code/setup-now-next.md
 ```
 
 #### For OpenCode:
 ```bash
-# Copy templates
-curl -o .config/opencode/commands/setup-now-next.md https://raw.githubusercontent.com/soutone/now-next-methodology/main/templates/opencode/setup-now-next.md
+curl -o ~/.config/opencode/commands/setup-now-next.md https://raw.githubusercontent.com/soutone/now-next-methodology/main/templates/opencode/setup-now-next.md
+```
 
-# Run the command
+Then in any project directory:
+```
 /setup-now-next
+```
+
+### Option 3: Manual Setup
+
+Download templates directly to your project:
+
+```bash
+# Download templates
+mkdir -p .claude/commands
+curl -o NOW.md https://raw.githubusercontent.com/soutone/now-next-methodology/main/templates/NOW.md
+curl -o .claude/commands/next.md https://raw.githubusercontent.com/soutone/now-next-methodology/main/templates/next.md
+
+# Edit NOW.md to fill in your project details
+# Then commit: git add NOW.md .claude/commands/next.md && git commit -m "Add now-next methodology"
+```
+
+#### For OpenCode:
+```bash
+# Download templates  
+mkdir -p .config/opencode/commands
+curl -o NOW.md https://raw.githubusercontent.com/soutone/now-next-methodology/main/templates/NOW.md
+curl -o .config/opencode/commands/next.md https://raw.githubusercontent.com/soutone/now-next-methodology/main/templates/next.md
+
+# Edit NOW.md to fill in your project details
+# Then commit: git add NOW.md .config/opencode/commands/next.md && git commit -m "Add now-next methodology"
 ```
 
 ---
