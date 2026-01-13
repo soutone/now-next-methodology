@@ -20,9 +20,11 @@ Losing context between Claude Code sessions? Try the Now-Next methodology
 ## Post Body
 
 ```markdown
-Hey folks -- I've been using Claude Code for a few months now and noticed I kept doing the same thing across projects: manually creating a NOW.md file to track current state and a NEXT.md for upcoming tasks.
+So I came across this repo -- https://github.com/lout33/claude_life_assistant -- where they use a NOW.md file to track stuff, and I thought it would work great for tracking project status too.
 
-After setting this up manually a bunch of times, I figured I'd package it up.
+Started using it in one project, then added a `/next` command to move between tasks. Worked so well that every time I started a new project, I'd tell my agent: "import the NOW.md + /next concept from project X and adapt it here."
+
+After doing that like 5 times, I figured I should just package it up properly.
 
 **What it is:**
 - NOW.md tracks what you're working on right now
@@ -31,9 +33,9 @@ After setting this up manually a bunch of times, I figured I'd package it up.
 
 Just two markdown files in your repo. The AI reads them to keep context across sessions, and they evolve with your code in git.
 
-Packaged it here in case it's useful to anyone else: https://github.com/soutone/now-next-methodology
+Packaged it here: https://github.com/soutone/now-next-methodology
 
-Works with OpenCode too. The `/setup-now-next` command creates both files if you want to try it.
+Works with both Claude Code and OpenCode. The `/setup-now-next` command creates both files if you want to try it.
 
 Would love feedback if anyone gives it a shot :)
 ```
