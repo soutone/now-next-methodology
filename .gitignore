@@ -29,3 +29,7 @@ __pycache__/
 .env
 .env.local
 *.log
+
+# Local project tracking (don't commit your personal NOW.md/NEXT.md)
+NOW.md
+NEXT.md
