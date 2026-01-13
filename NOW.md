@@ -67,30 +67,19 @@ Project has basic documentation (README, CONTRIBUTING, CUSTOMIZATION) and templa
 - Tells real story: discovery → iteration → packaging
 - Links to repo with `/setup-now-next` import instructions
 
-### Manual (User needs to handle)
+### Manual (Not pursuing)
 
-#### Marketplace Submissions
-- [ ] **[opencode.cafe](https://www.opencode.cafe/)** - Submit via their form
-  - Requires: Public repo ✅, Description ✅, Installation instructions ✅
-  - Follow [submission guidelines](https://www.opencode.cafe/guidelines)
-  - Category: Slash Commands
-  
-- [ ] **[claudecodemarketplace.net](https://claudecodemarketplace.net/plugins)** - Submit via their process
-  - Category: Skills or Tools
-  
-- [ ] **[claudecodeplugin.com](https://claudecodeplugin.com/)** - Create marketplace entry
-  - Possibly automate if they have GitHub-based marketplace structure
+**User Decision:** Reddit/Discord posting is sufficient for manual promotion effort.
 
-#### Community Engagement
-- [ ] Post detailed guide/tutorial on r/ClaudeCode with examples
-- [ ] Share in MCP Discord channels (if not already done)
-- [ ] Engage with comments and feedback on all platforms
-- [ ] Create example NOW.md files for common project types
+#### Marketplace Submissions (Skipped)
+- ~~opencode.cafe~~ - Would require web form submission
+- ~~claudecodemarketplace.net~~ - Would require web form submission
+- ~~claudecodeplugin.com~~ - Would require web form submission
 
-#### Content Creation
-- [ ] Write Medium/Dev.to article explaining methodology
-- [ ] Create video walkthrough (optional)
-- [ ] Add real-world examples beyond the 3 WIP projects listed
+#### Optional Future Content (Low Priority)
+- Medium/Dev.to article
+- Video walkthrough
+- Additional example templates
 
 ---
 
@@ -124,9 +113,9 @@ Project has basic documentation (README, CONTRIBUTING, CUSTOMIZATION) and templa
    - Create screenshots/examples for visual appeal
 
 ### User Required
-1. **Submit to marketplaces** (requires filling web forms)
-2. **Post to Reddit communities** (if automation not available)
-3. **Engage with community responses**
+1. ✅ **Post to Reddit communities** - Posted to r/ClaudeCode, r/opencodeCLI, r/vibecoding
+2. **Monitor and engage** - Respond to comments on PRs and Reddit posts
+3. **Organic growth** - Let community discover via awesome lists once PRs merge
 
 ### Future Improvements
 - Add more real-world example projects
