@@ -114,9 +114,9 @@ A local slash command that:
 ## 🎯 Real-World Examples
 
 **Projects built using this methodology:**
-- **Documatic** - AI documentation tool with autonomous feature development
-- **MarketMind** - B2B lead generation system (2,905 sites analyzed, 946+ qualified leads)
-- **Trading System** - Algorithmic trading with walk-forward optimization
+- **[Documatic](https://documatic.com)** - AI documentation tool with autonomous feature development
+- **[Credible](https://credible.so)** - Credential verification platform
+- **[Mailcheck](https://mailcheck.co)** - Email validation service
 - And several others...
 
 ### Example: Portfolio API Development
@@ -131,7 +131,7 @@ A local slash command that:
 - `/next` → AI reads NOW.md, implements next feature, updates state, commits
 - Multiple autonomous development sessions across different projects
 - Clear progression from MVP to production-ready applications
-- Used successfully for: API development, AI tools, B2B systems, algorithmic trading
+- Used successfully for: AI documentation tools, verification platforms, validation services, APIs
 
 [See detailed example →](./examples/crypto-portfolio-api/)
 
