@@ -58,9 +58,9 @@ That's it. Just run `/next` whenever you want to continue development.
 
 ## Real Projects Using This
 
-- **[Documatic](https://documatic.fly.dev)** - AI documentation tool
-- **[Credible](https://credible.fly.dev)** - Credential verification
-- **[MailCheck](https://mailcheck-api.fly.dev)** - Email validation
+- **[Documatic](https://documatic.fly.dev)** - AI documentation tool (WIP)
+- **[Credible](https://credible.fly.dev)** - Credential verification (WIP)
+- **[MailCheck](https://mailcheck-api.fly.dev)** - Email validation (WIP)
 
 ---
 
