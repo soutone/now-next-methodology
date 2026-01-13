@@ -33,3 +33,6 @@ __pycache__/
 # Local project tracking (don't commit your personal NOW.md/NEXT.md)
 NOW.md
 NEXT.md
+
+# Local OpenCode commands (don't commit personal workflow commands)
+.config/
