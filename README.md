@@ -114,9 +114,9 @@ A local slash command that:
 ## 🎯 Real-World Examples
 
 **Projects built using this methodology:**
-- **[Documatic](https://documatic.com)** - AI documentation tool with autonomous feature development
-- **[Credible](https://credible.so)** - Credential verification platform
-- **[Mailcheck](https://mailcheck.co)** - Email validation service
+- **[Documatic](https://documatic.fly.dev)** - AI documentation tool with autonomous feature development
+- **[Credible](https://credible.fly.dev)** - Credential verification platform
+- **[Mailcheck](https://mailcheck-api.fly.dev)** - Email validation service
 - And several others...
 
 ### Example: Portfolio API Development
