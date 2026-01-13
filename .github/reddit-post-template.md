@@ -20,45 +20,22 @@ Losing context between Claude Code sessions? Try the Now-Next methodology
 ## Post Body
 
 ```markdown
-I've been using Claude Code/OpenCode for a while and kept losing track of what I was working on between sessions. So I created a simple two-file system that's been working great:
+Hey folks -- I've been using Claude Code for a few months now and noticed I kept doing the same thing across projects: manually creating a NOW.md file to track current state and a NEXT.md for upcoming tasks.
 
-## What is it?
+After setting this up manually a bunch of times, I figured I'd package it up.
 
-**NOW.md** - Living documentation of current work
-- Recent accomplishments
-- Current status
-- Open challenges
-- Quick reference
+**What it is:**
+- NOW.md tracks what you're working on right now
+- NEXT.md queues what's coming up
+- `/next` command to move between tasks
 
-**NEXT.md** - Prioritized task queue
-- Immediate (do next)
-- Soon (this week)
-- Later (backlog)
-- Ideas (maybe someday)
+Just two markdown files in your repo. The AI reads them to keep context across sessions, and they evolve with your code in git.
 
-**`/next` command** - Seamlessly transitions to the next task
+Packaged it here in case it's useful to anyone else: https://github.com/soutone/now-next-methodology
 
-## Why it works
+Works with OpenCode too. The `/setup-now-next` command creates both files if you want to try it.
 
-- **Simple**: Just two markdown files in your repo
-- **Context preservation**: AI maintains full project context across sessions
-- **Git-tracked**: Your task management evolves with your code
-- **Flexible**: Adapts to any project type or workflow
-
-## Get Started
-
-Repository: https://github.com/soutone/now-next-methodology
-
-Includes:
-- Setup guides for Claude Code and OpenCode
-- Template files
-- Customization examples
-
-The `/setup-now-next` command creates both files instantly.
-
----
-
-Curious what others think - do you use something similar? What's your approach to maintaining context in AI-assisted development?
+Would love feedback if anyone gives it a shot :)
 ```
 
 ## Target Subreddits
