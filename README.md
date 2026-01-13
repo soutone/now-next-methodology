@@ -4,7 +4,7 @@
 
 ---
 
-## Setup (30 seconds)
+## 🚀 Setup
 
 **Claude Code:**
 ```bash
@@ -23,7 +23,7 @@ Then in any project:
 
 ---
 
-## How It Works
+## 💡 How It Works
 
 **NOW.md** tracks your project state:
 - Recent accomplishments (what got done)
@@ -41,7 +41,7 @@ Your AI maintains context across sessions. No more "what were we working on?"
 
 ---
 
-## Daily Workflow
+## ✨ Daily Workflow
 
 ```
 You: /next
@@ -56,7 +56,7 @@ That's it. Just run `/next` whenever you want to continue development.
 
 ---
 
-## Real Projects Using This
+## 🎯 Real Projects Using This
 
 - **[Documatic](https://documatic.fly.dev)** - AI documentation tool (WIP)
 - **[Credible](https://credible.fly.dev)** - Credential verification (WIP)
@@ -64,7 +64,7 @@ That's it. Just run `/next` whenever you want to continue development.
 
 ---
 
-## Customization
+## 🔧 Customization
 
 The templates are starting points. Edit NOW.md sections to fit your needs:
 
@@ -77,7 +77,7 @@ See [templates/](./templates/) for the files that get created.
 
 ---
 
-## Why This Works
+## 🤔 Why This Works
 
 AI assistants are great at executing but can't remember state between sessions.
 
@@ -87,7 +87,7 @@ Simple pattern that works.
 
 ---
 
-## Contributing
+## 🤝 Contributing
 
 Found this useful? 
 
@@ -97,7 +97,7 @@ Found this useful?
 
 ---
 
-## License
+## 📄 License
 
 MIT - Use it however you want.
 
