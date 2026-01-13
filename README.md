@@ -113,8 +113,14 @@ A local slash command that:
 
 ## 🎯 Real-World Examples
 
-### Crypto Portfolio API
-*From a real project using this methodology*
+**Projects built using this methodology:**
+- **Documatic** - AI documentation tool with autonomous feature development
+- **MarketMind** - B2B lead generation system (2,905 sites analyzed, 946+ qualified leads)
+- **Trading System** - Algorithmic trading with walk-forward optimization
+- And several others...
+
+### Example: Portfolio API Development
+*Detailed walkthrough from a real project*
 
 **Before now-next:**
 - Sessions started with "Where did I leave off?"
@@ -123,10 +129,11 @@ A local slash command that:
 
 **After now-next:**
 - `/next` → AI reads NOW.md, implements next feature, updates state, commits
-- 15+ autonomous development sessions tracked
-- Clear progression from MVP to production-ready API
+- Multiple autonomous development sessions across different projects
+- Clear progression from MVP to production-ready applications
+- Used successfully for: API development, AI tools, B2B systems, algorithmic trading
 
-[See full example →](./examples/crypto-portfolio-api/)
+[See detailed example →](./examples/crypto-portfolio-api/)
 
 ---
 
