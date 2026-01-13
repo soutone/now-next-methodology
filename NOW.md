@@ -7,17 +7,19 @@
 
 ## Recent Accomplishments
 
-### 2026-01-13 - Promotion Strategy Research
-**Purpose:** Identify channels to promote the now-next methodology to Claude Code/OpenCode community
+### 2026-01-13 - Promotion Campaign Launch
+**Purpose:** Identify and execute promotion across Claude Code/OpenCode community channels
 
 **What Was Done:**
 - Researched AI-specific promotion channels (Reddit, awesome lists, marketplaces)
-- Identified automation opportunities vs manual tasks
-- Created NOW.md to track promotion efforts
+- Created 3 PRs to major awesome lists (all submitted)
+- Created Reddit post template in your writing style
+- Posted to r/ClaudeCode, r/opencodeCLI, and r/vibecoding
 
 **Impact:**
-- Clear roadmap for reaching target audience
-- Separated automated vs manual promotion tasks
+- 3 GitHub PRs pending review (will appear in curated lists)
+- 3 Reddit posts live, engaging with community
+- Clear roadmap for remaining promotion channels
 
 ---
 
@@ -49,17 +51,21 @@ Project has basic documentation (README, CONTRIBUTING, CUSTOMIZATION) and templa
   - PR: https://github.com/jmckinley/claude-code-resources/pull/1
   - Status: ✅ Submitted 2026-01-13
 
-#### Reddit Posts (Requires Manual Posting)
-**Status:** No Reddit MCP available; automation requires PRAW setup with Reddit API credentials
+#### Reddit Posts (Manual)
+**Status:** Template created, user posting directly
 
-- [ ] Post to r/ClaudeCode
-- [ ] Post to r/opencodeCLI
+- [x] Post to r/ClaudeCode - ✅ Posted 2026-01-13
+- [x] Post to r/opencodeCLI - ✅ Posted 2026-01-13
+- [x] Post to r/vibecoding - ✅ Posted 2026-01-13
 - [ ] Post to r/ClaudeCoder
 - [ ] Post to r/ClaudeCodeAgents
 - [ ] Post to r/llmcoding
 - [ ] Cross-post to r/CLine
 
-**Automation Note:** Could automate via PRAW (Python Reddit API Wrapper) if user provides Reddit API credentials (client_id, client_secret, user_agent). For now, treating as manual task.
+**Final Post Version Used:**
+- Credits lout33/claude_life_assistant as inspiration
+- Tells real story: discovery → iteration → packaging
+- Links to repo with `/setup-now-next` import instructions
 
 ### Manual (User needs to handle)
 
