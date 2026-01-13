@@ -14,7 +14,7 @@ Initialize a project with the now-next methodology: NOW.md file for tracking sta
 ### Phase 1: Analysis
 - Check if NOW.md already exists (don't overwrite!)
 - Check if git repo is initialized
-- Check if .config/opencode/commands/ directory exists
+- Check if .claude/commands/ directory exists
 - Get project name from directory
 
 ### Phase 2: Create NOW.md
@@ -29,7 +29,7 @@ Replace placeholders:
 
 ### Phase 3: Create /next Command
 
-Create `.config/opencode/commands/next.md` from template:
+Create `.claude/commands/next.md` from template:
 https://raw.githubusercontent.com/soutone/now-next-methodology/main/templates/next.md
 
 ### Phase 4: Git Initialization
@@ -37,13 +37,13 @@ https://raw.githubusercontent.com/soutone/now-next-methodology/main/templates/ne
 If no git repo exists:
 ```bash
 git init
-git add NOW.md .config/opencode/commands/next.md
+git add NOW.md .claude/commands/next.md
 git commit -m "Initialize now-next methodology"
 ```
 
 If git repo exists:
 ```bash
-git add NOW.md .config/opencode/commands/next.md
+git add NOW.md .claude/commands/next.md
 git commit -m "Add now-next methodology"
 ```
 
@@ -60,7 +60,7 @@ Report to user:
 ## Implementation Notes
 
 - Don't overwrite NOW.md if it already exists (warn user instead)
-- Create `.config/opencode/commands/` directory if it doesn't exist
+- Create `.claude/commands/` directory if it doesn't exist
 - Preserve any existing AGENTS.md or project-specific instruction files
 - Use actual project directory name, not "[Project Name]"
 - Use actual current date in YYYY-MM-DD format
