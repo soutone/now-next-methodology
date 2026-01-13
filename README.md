@@ -119,21 +119,11 @@ A local slash command that:
 - **[MailCheck](https://mailcheck-api.fly.dev)** - Email validation service
 - And several others...
 
-### Example: Portfolio API Development
-*Detailed walkthrough from a real project*
-
-**Before now-next:**
-- Sessions started with "Where did I leave off?"
-- Unclear what was tested and what wasn't
-- Manual git commits after forgetting what changed
-
-**After now-next:**
-- `/next` → AI reads NOW.md, implements next feature, updates state, commits
-- Multiple autonomous development sessions across different projects
+**Results across projects:**
+- Multiple autonomous development sessions
 - Clear progression from MVP to production-ready applications
+- `/next` maintains context perfectly across sessions
 - Used successfully for: AI documentation tools, verification platforms, validation services, APIs
-
-[See detailed example →](./examples/crypto-portfolio-api/)
 
 ---
 
@@ -193,7 +183,6 @@ curl -o .config/opencode/commands/next.md https://raw.githubusercontent.com/sout
 - [Getting Started Guide](./docs/getting-started.md) - Detailed walkthrough
 - [Philosophy & Principles](./docs/philosophy.md) - Why this works
 - [Customization Guide](./docs/customization.md) - Adapt to your workflow
-- [Examples](./examples/) - Real projects using now-next
 
 ---
 

@@ -194,7 +194,6 @@ Edit "Next Steps" in NOW.md to reprioritize, then run `/next`.
 ## Next Steps
 
 - Read [Philosophy & Principles](./philosophy.md) to understand why this works
-- See [Examples](../examples/) for real projects using this methodology
 - Check [Customization Guide](./customization.md) to adapt to your workflow
 
 **Ready to start?** Run `/next` and let your AI take the wheel! 🚀
