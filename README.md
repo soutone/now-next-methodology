@@ -1,14 +1,10 @@
 # Now-Next Methodology
 
-**Simple workflow for AI coding assistants that maintains context across sessions**
-
-Never lose track of what your AI was working on. Just a `NOW.md` file to track state and a `/next` command to continue development.
+**Keep your AI on track across sessions with two simple files: NOW.md + /next command**
 
 ---
 
-## 🚀 Setup (30 seconds)
-
-Install the `/setup-now-next` command once:
+## Setup (30 seconds)
 
 **Claude Code:**
 ```bash
@@ -25,24 +21,19 @@ Then in any project:
 /setup-now-next
 ```
 
-That's it! Now just run `/next` whenever you want your AI to continue development.
-
 ---
 
-## 💡 What This Does
+## How It Works
 
-Creates two files in your project:
-
-**NOW.md** - Tracks your project state:
+**NOW.md** tracks your project state:
 - Recent accomplishments (what got done)
 - Current status (where you are)
-- Open challenges (what's blocking you)
 - Next steps (what to do next)
 
-**/next command** - Tells your AI to:
+**/next** tells your AI to:
 1. Read NOW.md
 2. Pick the next task
-3. Implement it with tests
+3. Implement + test it
 4. Update NOW.md
 5. Commit changes
 
@@ -50,7 +41,22 @@ Your AI maintains context across sessions. No more "what were we working on?"
 
 ---
 
-## 🎯 Real Projects Using This
+## Daily Workflow
+
+```
+You: /next
+AI: [reads NOW.md, implements feature, updates state, commits]
+AI: ✅ Done! Added user authentication. Next: password reset
+
+You: /next
+AI: [continues from where it left off...]
+```
+
+That's it. Just run `/next` whenever you want to continue development.
+
+---
+
+## Real Projects Using This
 
 - **[Documatic](https://documatic.fly.dev)** - AI documentation tool
 - **[Credible](https://credible.fly.dev)** - Credential verification
@@ -58,30 +64,45 @@ Your AI maintains context across sessions. No more "what were we working on?"
 
 ---
 
-## 📚 Learn More
+## Customization
 
-- **[Getting Started](./docs/getting-started.md)** - Detailed walkthrough
-- **[Why This Works](./docs/philosophy.md)** - The reasoning behind it
-- **[Customization](./docs/customization.md)** - Adapt to your needs
+The templates are starting points. Edit NOW.md sections to fit your needs:
+
+- Add metrics, dependencies, architecture decisions
+- Remove sections you don't need
+- Change commit formats in /next command
+- Adapt to your tech stack
+
+See [templates/](./templates/) for the files that get created.
 
 ---
 
-## 🤝 Contributing
+## Why This Works
 
-Found this useful? Contributions welcome!
+AI assistants are great at executing but can't remember state between sessions.
+
+NOW.md externalizes that state into a markdown file both you and the AI can read.
+
+Simple pattern that works.
+
+---
+
+## Contributing
+
+Found this useful? 
 
 - Share your experience in [Discussions](https://github.com/soutone/now-next-methodology/discussions)
-- Report issues or suggest improvements
+- Report issues or improvements
 - See [CONTRIBUTING.md](./CONTRIBUTING.md)
 
 ---
 
-## 📄 License
+## License
 
 MIT - Use it however you want.
 
 ---
 
-**Just a simple workflow that worked for me. Hope it helps you too.**
+**Just a workflow that worked for me. Hope it helps you too.**
 
 *If it does, ⭐ the repo!*
