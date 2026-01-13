@@ -116,7 +116,7 @@ A local slash command that:
 **Projects built using this methodology:**
 - **[Documatic](https://documatic.fly.dev)** - AI documentation tool with autonomous feature development
 - **[Credible](https://credible.fly.dev)** - Credential verification platform
-- **[Mailcheck](https://mailcheck-api.fly.dev)** - Email validation service
+- **[MailCheck](https://mailcheck-api.fly.dev)** - Email validation service
 - And several others...
 
 ### Example: Portfolio API Development
