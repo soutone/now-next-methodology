@@ -4,7 +4,7 @@
 
 ### Option 1 (Simple)
 ```
-[Tool] Now-Next Methodology - Two-file task management for Claude Code/OpenCode
+[slash-command] Now-Next Methodology - Two-file task management for Claude Code/OpenCode
 ```
 
 ### Option 2 (Benefit-focused)
