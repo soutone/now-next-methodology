@@ -34,5 +34,5 @@ __pycache__/
 NOW.md
 NEXT.md
 
-# Local OpenCode commands (don't commit personal workflow commands)
-.config/
+# Local project commands (don't commit personal workflow commands)
+.claude/
