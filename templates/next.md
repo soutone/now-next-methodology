@@ -6,7 +6,7 @@ Execute the next development iteration using the now-next methodology.
 
 ### Phase 1: Context Gathering
 1. Read NOW.md to understand current project state
-2. Read project-specific instruction files (CLAUDE.md, AGENTS.md, etc.) if they exist
+2. Read project-specific instruction files (AGENTS.md, etc.) if they exist
 3. Review recent git commits to understand what changed
 4. Check for any blocking issues or unresolved challenges
 
