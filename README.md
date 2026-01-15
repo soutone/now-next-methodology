@@ -13,7 +13,7 @@ curl -o ~/.claude/commands/setup-now-next.md https://raw.githubusercontent.com/s
 
 **OpenCode:**
 ```bash
-curl -o ~/.config/opencode/commands/setup-now-next.md https://raw.githubusercontent.com/soutone/now-next-methodology/main/templates/opencode/setup-now-next.md
+curl -o ~/.config/opencode/command/setup-now-next.md https://raw.githubusercontent.com/soutone/now-next-methodology/main/templates/opencode/setup-now-next.md
 ```
 
 Then in any project:
